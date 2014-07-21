@@ -9,3 +9,4 @@ end
 
 require 'projects_table'
 ProjectsHelper.send(:include, ProjectsTable)
+ProjectsHelper.send(:include, ProjectsTableHelper)
